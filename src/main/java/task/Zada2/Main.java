@@ -23,7 +23,7 @@ public class Main {
 
             }
         }
-        System.out.println(shape.toString());
+        System.out.println(shape);
         shapeCalculator.closeScanner();
     }
 
