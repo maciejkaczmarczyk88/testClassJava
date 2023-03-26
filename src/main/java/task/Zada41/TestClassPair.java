@@ -5,5 +5,8 @@ public class TestClassPair {
         Pair<String, Integer> par1 = new Pair<>("Krzesło",5);
         Pair<Integer, Boolean> pair2 = new Pair<>(5, true);
         Pair<Double,Integer> pair4 = new Pair<>(5000.00, 200);
+
+        System.out.println(pair2.getT());
+        System.out.println(pair2.getV());
     }
 }
